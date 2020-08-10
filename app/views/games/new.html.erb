@@ -1,0 +1,9 @@
+<h1>New Game</h1>
+
+<div class="container">
+    <ul>
+        <% @alpha.each do |letter| %>
+            <div class="box"><li><%= letter.capitalize %></li></div>
+        <% end %>
+    </ul>
+</div>
